@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primeiro{
+    width: 45%;
+    height: 80%;
+
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.nome{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 35px;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 7px;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.klkl{
+    
+    width: 250px;
+    height: 30px;
+
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+H3{
+    font-size: 15px;
+    color: rgb(99, 136, 170);
+}
+.box{
+    width: 50px;
+    height:40px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+}
+
+input{
+    border: none;
+    box-shadow: inset 1px 0px 6px rgba(0, 0, 0, 0.397);
+}
+.botao{
+    background-color: rgb(32, 51, 158);
+    width: 250px;
+    height: 35px;
+
+    color: white;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 7px;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.botao:hover{
+    background-color: crimson;
+    color: white;
+    transition: all 0.2s;
+}
